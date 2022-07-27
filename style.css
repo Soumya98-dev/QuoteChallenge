@@ -1,0 +1,47 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(59, 99, 101);
+    background-color: darksalmon;
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  #content {
+    width: 55%;
+    margin: 3rem auto;
+    background-color: aquamarine;
+  }
+
+  .quote {
+    border-top: 2px solid blueviolet;
+    padding: 15px;
+    /* WE WANT EACH BUTTON TO BE RELATIVE OF IT'S PARENT */
+    position: relative;
+  }
+
+  .quote h3 {
+    margin-bottom: 1rem;
+  }
+
+  .cross {
+    /* padding: 5px; */
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 20, 20);
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
